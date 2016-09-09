@@ -15,19 +15,16 @@ The notebook is based on an [earlier version](http://cs231n.github.io/python-num
 ## Run on Mac or Linux
 
 1. [Anaconda](https://www.continuum.io/downloads) 설치
-
 2.  가상환경 생성
 ```
 $ conda create -n dsci2 python=2 pandas matplotlib jupyter
 ```
-
 3. 실습 파일 clone
 ```
 $ mkdir -p ~/Project
 $ cd ~/Project
 $ git clone https://github.com/macromancer/cs228-material.git
 ```
-
 4. notebook 실행
 ```
 $ cd ~/Project/cs228-material
@@ -37,7 +34,6 @@ $ juputer-notebook
 ```
 $ juputer-notebook --port=3833 --no-browser
 ```
-
 5. tutorial 실행
   - chrome 이나 firefox로 접속하고, tutorial-ko.ipynb 클릭
   ![nb01](./imgs/nb01.png)
